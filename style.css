@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia&display=swap');
+
+body {
+  background-color: #F6EEE0;
+  font-family: 'Kalnia', serif;
+  color: black;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: auto;
+}
+
+h1, h2 {
+  color: #5A3E79;
+  font-family: cursive;
+  font-size: 30px;
+  line-height: normal;
+}
+
+h2 {
+  font-size: 23px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color:crimson;
+  font-size: large;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+  background-color: white;
+}
+
+.card {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 20px;
+  background-color: peachpuff;
+  border-style: solid;
+  border-color: darkred;
+  margin-bottom: 20px;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.40);
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#image {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin-bottom: 30px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.50);
+}
+
+.list-inline {
+  display: inline-block;
+  padding: 0px 25px;
+  list-style: none;
+  padding-left: 0px;
+  margin-right: 15px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
